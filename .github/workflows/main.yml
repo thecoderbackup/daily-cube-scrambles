@@ -1,0 +1,39 @@
+name: Daily Cube Scrambles
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Executa todo dia às 12:00 UTC (09:00 BRT)
+  workflow_dispatch:       # Permite execução manual
+
+jobs:
+  generate-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pycuber
+
+    - name: Generate new scrambles
+      run: python cube_solver.py --generate-batch
+
+    - name: Commit and push changes
+      env:
+        GIT_AUTHOR_NAME: GitHub Actions
+        GIT_AUTHOR_EMAIL: actions@github.com
+        GIT_COMMITTER_NAME: GitHub Actions
+        GIT_COMMITTER_EMAIL: actions@github.com
+      run: |
+        git config --global user.name "$GIT_AUTHOR_NAME"
+        git config --global user.email "$GIT_AUTHOR_EMAIL"
+        git add scrambles/
+        git commit -m "Auto-generated daily scrambles [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
+        git push
