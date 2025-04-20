@@ -29,6 +29,7 @@ jobs:
         GIT_AUTHOR_NAME: GitHub Actions
         GIT_AUTHOR_EMAIL: actions@github.com
       run: |
+        git pull
         git config --global user.name "$GIT_AUTHOR_NAME"
         git config --global user.email "$GIT_AUTHOR_EMAIL"
         git add scrambles/ README.md
