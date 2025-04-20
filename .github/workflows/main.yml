@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Pega todo o histórico do Git
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -18,8 +20,7 @@ jobs:
         python-version: '3.x'
 
     - name: Install dependencies
-      run: |
-        pip install pycuber
+      run: pip install pycuber
 
     - name: Generate scrambles and README
       run: python cube_solver.py --generate-batch
@@ -29,9 +30,16 @@ jobs:
         GIT_AUTHOR_NAME: GitHub Actions
         GIT_AUTHOR_EMAIL: actions@github.com
       run: |
-        git pull --rebase
+        # Configuração do Git
         git config --global user.name "$GIT_AUTHOR_NAME"
         git config --global user.email "$GIT_AUTHOR_EMAIL"
+        
+        # Sincroniza com o repositório remoto
+        git pull --rebase
+        
+        # Adiciona e commita as mudanças
         git add scrambles/ README.md
         git commit -m "🔄 Daily update: Scrambles & README [$(date +'%d/%m/%Y')]"
+        
+        # Força o push para garantir a sincronização
         git push --force
