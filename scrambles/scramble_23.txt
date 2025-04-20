@@ -1,18 +1,18 @@
-Scramble (2 moves): D D2
+Scramble (2 moves): U U2
 
 Scrambled Cube:
          [y][y][y]
          [y][y][y]
          [y][y][y]
+[b][b][b][r][r][r][g][g][g][o][o][o]
 [r][r][r][g][g][g][o][o][o][b][b][b]
 [r][r][r][g][g][g][o][o][o][b][b][b]
-[g][g][g][o][o][o][b][b][b][r][r][r]
          [w][w][w]
          [w][w][w]
          [w][w][w]
 
 
-Solution (1 moves): D
+Solution (1 moves): U
 
 Step-by-Step Solution:
 Step 1:
