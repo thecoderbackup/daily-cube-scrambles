@@ -50,6 +50,12 @@ def generate_batch_files(output_dir, num_files=25):
         
         step_by_step = []
 
+        for j in range(len(solution_moves)):
+            step_cube = pc.Cube()
+            step_cube(scramble)
+            step_cube(" ".join(solution_moves[:j+1]))
+            step_by_step.append(str(step_cube))
+
         if i == example_index:
             example_content = [
                 f"## Daily Cube Scramble Example\n",
@@ -64,12 +70,6 @@ def generate_batch_files(output_dir, num_files=25):
             
             for idx, (move, state) in enumerate(zip(solution_moves, step_by_step), 1):
                 example_content.append(f"#### Step {idx}: {move}\n```\n{state}\n```\n\n")
-
-        for j in range(len(solution_moves)):
-            step_cube = pc.Cube()
-            step_cube(scramble)
-            step_cube(" ".join(solution_moves[:j+1]))
-            step_by_step.append(str(step_cube))
         
         # Write individual file
         with open(filename, 'w') as f:
