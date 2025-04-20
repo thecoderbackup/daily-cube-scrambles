@@ -28,8 +28,10 @@ def read_from_file(filename):
         return f.read().strip()
 
 def generate_batch_files(output_dir, num_files=25):
-    """Generate multiple scramble files with solutions and visualizations."""
+    """Generate multiple scramble files and update README.md."""
     os.makedirs(output_dir, exist_ok=True)
+    readme_content = ["# daily-cube-scrambles\n\n"]
+    
     for i in range(num_files):
         scramble_length = random.randint(0, 40)
         scramble = generate_scramble_sequence(scramble_length)
@@ -51,7 +53,9 @@ def generate_batch_files(output_dir, num_files=25):
             step_cube(" ".join(solution_moves[:j+1]))
             step_by_step.append(str(step_cube))
         
+        # Write individual file
         with open(filename, 'w') as f:
+            print("Gerando: " + filename)
             f.write(f"Scramble ({scramble_length} moves): {scramble}\n\n")
             f.write("Scrambled Cube:\n")
             f.write(f"{scrambled_state}\n\n")
@@ -60,7 +64,20 @@ def generate_batch_files(output_dir, num_files=25):
             for idx, state in enumerate(step_by_step, 1):
                 f.write(f"Step {idx}:\n{state}\n\n")
         
-        print(f"Generated: {filename}")
+        # Build README content
+        readme_content.append(f"## Scramble {i+1}\n")
+        readme_content.append(f"**Moves:** {scramble_length}\n\n")
+        readme_content.append(f"**Sequence:** `{scramble}`\n\n")
+        readme_content.append("**Scrambled State:**\n```\n")
+        readme_content.append(scrambled_state)
+        readme_content.append("\n```\n\n")
+        readme_content.append(f"**Solution:** `{solution_str}`\n\n---\n")
+    
+    # Write README.md
+    with open("README.md", "w") as f:
+        f.writelines(readme_content)
+    
+    print(f"Generated {num_files} scrambles and updated README.md")
 
 def main():
     parser = argparse.ArgumentParser(description="Advanced Rubik's Cube Solver")
