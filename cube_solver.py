@@ -30,7 +30,9 @@ def read_from_file(filename):
 def generate_batch_files(output_dir, num_files=25):
     """Generate multiple scramble files and update README.md."""
     os.makedirs(output_dir, exist_ok=True)
-    readme_content = ["# daily-cube-scrambles\n\n"]
+    
+    example_index = random.randint(0, num_files-1)
+    example_content = []
     
     for i in range(num_files):
         scramble_length = random.randint(0, 40)
@@ -47,6 +49,22 @@ def generate_batch_files(output_dir, num_files=25):
         solution_moves = solution_str.split()
         
         step_by_step = []
+
+        if i == example_index:
+            example_content = [
+                f"## Daily Cube Scramble Example\n",
+                f"**Scramble Moves:** {scramble_length}\n",
+                f"**Sequence:** `{scramble}`\n\n",
+                "### Scrambled Cube State:\n```\n",
+                scrambled_state,
+                "\n```\n\n",
+                f"### Solution Moves ({len(solution_moves)}): `{solution_str}`\n\n",
+                "### Step-by-Step Solution:\n"
+            ]
+            
+            for idx, (move, state) in enumerate(zip(solution_moves, step_by_step), 1):
+                example_content.append(f"#### Step {idx}: {move}\n```\n{state}\n```\n\n")
+
         for j in range(len(solution_moves)):
             step_cube = pc.Cube()
             step_cube(scramble)
@@ -64,16 +82,14 @@ def generate_batch_files(output_dir, num_files=25):
             for idx, state in enumerate(step_by_step, 1):
                 f.write(f"Step {idx}:\n{state}\n\n")
         
-        # Build README content
-        readme_content.append(f"## Scramble {i+1}\n")
-        readme_content.append(f"**Moves:** {scramble_length}\n\n")
-        readme_content.append(f"**Sequence:** `{scramble}`\n\n")
-        readme_content.append("**Scrambled State:**\n```\n")
-        readme_content.append(scrambled_state)
-        readme_content.append("\n```\n\n")
-        readme_content.append(f"**Solution:** `{solution_str}`\n\n---\n")
+        readme_content = [
+        "# daily-cube-scrambles\n\n",
+        "## Today's Featured Scramble\n",
+        *example_content,
+        "---\n",
+        f"**Note:** Generated {num_files} scrambles daily. Check [scrambles/](scrambles/) folder for all files!\n"
+    ]
     
-    # Write README.md
     with open("README.md", "w") as f:
         f.writelines(readme_content)
     
