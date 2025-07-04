@@ -1,33 +1,741 @@
-Scramble (5 moves): B2 B B F2 B'
+Scramble (39 moves): F D' R R' D2 B2 L' B2 U D U' D D2 R2 B' B U' U' L D2 F2 L' L F' D2 U' F D' L L F B2 L2 F' F2 B' U' B2 F'
 
 Scrambled Cube:
-         [r][r][r]
+         [w][w][r]
          [y][y][y]
-         [w][w][w]
-[w][r][o][g][g][g][r][o][y][b][b][b]
-[w][r][o][g][g][g][r][o][y][b][b][b]
-[w][r][o][g][g][g][r][o][y][b][b][b]
-         [y][y][y]
-         [w][w][w]
-         [o][o][o]
+         [y][o][o]
+[g][o][b][r][b][y][g][g][g][y][r][o]
+[w][r][r][g][g][o][w][o][g][w][b][b]
+[r][b][r][w][r][b][w][y][y][b][o][w]
+         [b][b][o]
+         [y][w][r]
+         [g][g][o]
 
 
-Solution (2 moves): F2 B
+Solution (61 moves): R2 U2 B D R' F2 B2 D' F' U2 F U F' U2 F2 U F' B U2 B' U B U B' L U L' U2 L U L2 U L F U F' U' F U R' U' F' U F R F' U2 R' U R' U' B' R' B2 U' B' U B' R B R
 
 Step-by-Step Solution:
 Step 1:
-         [r][r][r]
-         [y][y][y]
-         [y][y][y]
-[w][r][r][g][g][g][o][o][y][b][b][b]
-[w][r][r][g][g][g][o][o][y][b][b][b]
-[w][r][r][g][g][g][o][o][y][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [o][o][o]
+         [w][w][o]
+         [y][y][r]
+         [y][o][o]
+[g][o][b][r][b][b][y][y][w][b][r][o]
+[w][r][r][g][g][w][g][o][w][o][b][b]
+[r][b][r][w][r][y][g][g][g][y][o][w]
+         [b][b][r]
+         [y][w][y]
+         [g][g][o]
 
 
 Step 2:
+         [o][o][y]
+         [r][y][y]
+         [o][w][w]
+[y][y][w][b][r][o][g][o][b][r][b][b]
+[w][r][r][g][g][w][g][o][w][o][b][b]
+[r][b][r][w][r][y][g][g][g][y][o][w]
+         [b][b][r]
+         [y][w][y]
+         [g][g][o]
+
+
+Step 3:
+         [b][w][g]
+         [r][y][y]
+         [o][w][w]
+[y][y][w][b][r][o][g][o][o][y][o][r]
+[o][r][r][g][g][w][g][o][g][o][b][b]
+[o][b][r][w][r][y][g][g][g][w][b][b]
+         [b][b][r]
+         [y][w][y]
+         [y][w][r]
+
+
+Step 4:
+         [b][w][g]
+         [r][y][y]
+         [o][w][w]
+[y][y][w][b][r][o][g][o][o][y][o][r]
+[o][r][r][g][g][w][g][o][g][o][b][b]
+[w][b][b][o][b][r][w][r][y][g][g][g]
+         [y][y][b]
+         [w][w][b]
+         [r][y][r]
+
+
+Step 5:
+         [b][w][g]
+         [r][y][o]
+         [o][w][y]
+[y][y][w][b][r][g][o][g][y][r][o][r]
+[o][r][r][g][g][y][o][o][r][b][b][b]
+[w][b][b][o][b][w][g][g][w][b][g][g]
+         [y][y][o]
+         [w][w][w]
+         [r][y][r]
+
+
+Step 6:
+         [b][w][g]
+         [r][y][o]
+         [o][y][y]
+[y][y][g][w][b][o][b][g][y][r][o][r]
+[o][r][o][y][g][g][r][o][r][b][b][b]
+[w][b][o][g][r][b][w][g][w][b][g][g]
+         [y][w][o]
+         [w][w][w]
+         [r][y][r]
+
+
+Step 7:
+         [r][y][r]
+         [r][y][o]
+         [o][y][y]
+[w][y][g][w][b][o][b][g][w][g][g][b]
+[r][r][o][y][g][g][r][o][o][b][b][b]
+[y][b][o][g][r][b][w][g][y][r][o][r]
+         [y][w][o]
+         [w][w][w]
+         [g][w][b]
+
+
+Step 8:
+         [r][y][r]
+         [r][y][o]
+         [o][y][y]
+[w][y][g][w][b][o][b][g][w][g][g][b]
+[r][r][o][y][g][g][r][o][o][b][b][b]
+[g][r][b][w][g][y][r][o][r][y][b][o]
+         [o][w][b]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 9:
+         [r][y][r]
+         [r][y][o]
+         [b][r][r]
+[w][y][y][o][g][y][b][g][w][g][g][b]
+[r][r][y][b][g][g][w][o][o][b][b][b]
+[g][r][o][w][y][w][o][o][r][y][b][o]
+         [g][o][b]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 10:
+         [r][r][b]
+         [o][y][r]
+         [r][y][r]
+[b][g][w][g][g][b][w][y][y][o][g][y]
+[r][r][y][b][g][g][w][o][o][b][b][b]
+[g][r][o][w][y][w][o][o][r][y][b][o]
+         [g][o][b]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 11:
+         [r][r][b]
+         [o][y][r]
+         [o][y][w]
+[b][g][g][w][b][g][r][y][y][o][g][y]
+[r][r][o][y][g][g][y][o][o][b][b][b]
+[g][r][b][w][g][b][r][o][r][y][b][o]
+         [o][w][w]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 12:
+         [o][o][r]
+         [y][y][r]
+         [w][r][b]
+[w][b][g][r][y][y][o][g][y][b][g][g]
+[r][r][o][y][g][g][y][o][o][b][b][b]
+[g][r][b][w][g][b][r][o][r][y][b][o]
+         [o][w][w]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 13:
+         [o][o][r]
+         [y][y][r]
+         [o][y][r]
+[w][b][b][y][g][b][w][g][y][b][g][g]
+[r][r][r][y][g][g][w][o][o][b][b][b]
+[g][r][w][r][y][w][o][o][r][y][b][o]
+         [g][o][b]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 14:
+         [r][y][o]
+         [r][y][y]
+         [r][o][o]
+[w][g][y][b][g][g][w][b][b][y][g][b]
+[r][r][r][y][g][g][w][o][o][b][b][b]
+[g][r][w][r][y][w][o][o][r][y][b][o]
+         [g][o][b]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 15:
+         [r][y][o]
+         [r][y][y]
+         [b][o][g]
+[w][g][o][w][y][r][w][b][b][y][g][b]
+[r][r][w][g][g][y][r][o][o][b][b][b]
+[g][r][w][g][g][b][y][o][r][y][b][o]
+         [o][o][r]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 16:
+         [b][r][r]
+         [o][y][y]
+         [g][y][o]
+[w][y][r][w][b][b][y][g][b][w][g][o]
+[r][r][w][g][g][y][r][o][o][b][b][b]
+[g][r][w][g][g][b][y][o][r][y][b][o]
+         [o][o][r]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 17:
+         [b][r][r]
+         [o][y][y]
+         [y][r][y]
+[w][y][o][b][y][b][r][g][b][w][g][o]
+[r][r][y][b][g][g][o][o][o][b][b][b]
+[g][r][g][w][g][g][o][o][r][y][b][o]
+         [r][w][w]
+         [w][w][w]
+         [y][w][g]
+
+
+Step 18:
+         [b][o][r]
+         [o][y][y]
+         [y][r][y]
+[r][y][o][b][y][b][r][g][g][y][b][w]
+[r][r][y][b][g][g][o][o][w][b][b][g]
+[b][r][g][w][g][g][o][o][y][o][b][o]
+         [r][w][w]
+         [w][w][w]
+         [w][r][g]
+
+
+Step 19:
+         [y][r][y]
+         [y][y][o]
+         [r][o][b]
+[r][g][g][y][b][w][r][y][o][b][y][b]
+[r][r][y][b][g][g][o][o][w][b][b][g]
+[b][r][g][w][g][g][o][o][y][o][b][o]
+         [r][w][w]
+         [w][w][w]
+         [w][r][g]
+
+
+Step 20:
+         [b][r][r]
+         [y][y][o]
+         [r][o][b]
+[w][g][g][y][b][w][r][y][y][b][g][o]
+[r][r][y][b][g][g][o][o][r][y][b][b]
+[g][r][g][w][g][g][o][o][y][b][b][o]
+         [r][w][w]
+         [w][w][w]
+         [y][w][o]
+
+
+Step 21:
+         [r][y][b]
+         [o][y][r]
+         [b][o][r]
+[y][b][w][r][y][y][b][g][o][w][g][g]
+[r][r][y][b][g][g][o][o][r][y][b][b]
+[g][r][g][w][g][g][o][o][y][b][b][o]
+         [r][w][w]
+         [w][w][w]
+         [y][w][o]
+
+
+Step 22:
+         [o][r][y]
+         [o][y][r]
+         [b][o][r]
+[b][b][w][r][y][y][b][g][o][b][y][w]
+[y][r][y][b][g][g][o][o][w][b][b][g]
+[r][r][g][w][g][g][o][o][y][o][b][g]
+         [r][w][w]
+         [w][w][w]
+         [y][r][g]
+
+
+Step 23:
+         [b][o][o]
+         [o][y][r]
+         [r][r][y]
+[r][y][y][b][g][o][b][y][w][b][b][w]
+[y][r][y][b][g][g][o][o][w][b][b][g]
+[r][r][g][w][g][g][o][o][y][o][b][g]
+         [r][w][w]
+         [w][w][w]
+         [y][r][g]
+
+
+Step 24:
+         [r][y][r]
+         [o][y][r]
+         [r][r][y]
+[y][y][y][b][g][o][b][y][b][w][g][g]
+[r][r][y][b][g][g][o][o][o][b][b][b]
+[g][r][g][w][g][g][o][o][o][b][b][o]
+         [r][w][w]
+         [w][w][w]
+         [y][w][w]
+
+
+Step 25:
+         [o][y][r]
+         [b][y][r]
+         [g][r][y]
+[g][r][y][r][g][o][b][y][b][w][g][y]
+[r][r][y][o][g][g][o][o][o][b][b][w]
+[g][y][y][r][g][g][o][o][o][b][b][r]
+         [b][w][w]
+         [b][w][w]
+         [w][w][w]
+
+
+Step 26:
+         [g][b][o]
+         [r][y][y]
+         [y][r][r]
+[r][g][o][b][y][b][w][g][y][g][r][y]
+[r][r][y][o][g][g][o][o][o][b][b][w]
+[g][y][y][r][g][g][o][o][o][b][b][r]
+         [b][w][w]
+         [b][w][w]
+         [w][w][w]
+
+
+Step 27:
+         [b][b][o]
+         [o][y][y]
+         [r][r][r]
+[o][y][y][b][y][b][w][g][y][g][r][y]
+[g][r][y][b][g][g][o][o][o][b][b][r]
+[r][r][g][w][g][g][o][o][o][b][b][g]
+         [r][w][w]
+         [w][w][w]
+         [y][w][w]
+
+
+Step 28:
+         [r][r][r]
+         [y][y][o]
+         [o][b][b]
+[w][g][y][g][r][y][o][y][y][b][y][b]
+[g][r][y][b][g][g][o][o][o][b][b][r]
+[r][r][g][w][g][g][o][o][o][b][b][g]
+         [r][w][w]
+         [w][w][w]
+         [y][w][w]
+
+
+Step 29:
+         [g][r][r]
+         [r][y][o]
+         [b][b][b]
+[r][g][w][r][r][y][o][y][y][b][y][y]
+[r][r][g][y][g][g][o][o][o][b][b][w]
+[g][y][y][o][g][g][o][o][o][b][b][r]
+         [g][w][w]
+         [b][w][w]
+         [w][w][w]
+
+
+Step 30:
+         [b][r][g]
+         [b][y][r]
+         [b][o][r]
+[r][r][y][o][y][y][b][y][y][r][g][w]
+[r][r][g][y][g][g][o][o][o][b][b][w]
+[g][y][y][o][g][g][o][o][o][b][b][r]
+         [g][w][w]
+         [b][w][w]
+         [w][w][w]
+
+
+Step 31:
+         [g][r][g]
+         [b][y][r]
+         [w][o][r]
+[y][y][g][r][y][y][b][y][y][r][g][o]
+[g][r][r][w][g][g][o][o][o][b][b][y]
+[y][r][r][w][g][g][o][o][o][b][b][o]
+         [b][w][w]
+         [b][w][w]
+         [b][w][w]
+
+
+Step 32:
+         [w][b][g]
+         [o][y][r]
+         [r][r][g]
+[r][y][y][b][y][y][r][g][o][y][y][g]
+[g][r][r][w][g][g][o][o][o][b][b][y]
+[y][r][r][w][g][g][o][o][o][b][b][o]
+         [b][w][w]
+         [b][w][w]
+         [b][w][w]
+
+
+Step 33:
+         [o][b][g]
+         [y][y][r]
+         [g][r][g]
+[y][g][r][w][y][y][r][g][o][y][y][b]
+[r][r][y][o][g][g][o][o][o][b][b][b]
+[r][r][y][r][g][g][o][o][o][b][b][b]
+         [b][w][w]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 34:
+         [o][b][g]
+         [y][y][r]
+         [y][y][r]
+[y][g][b][r][o][w][g][g][o][y][y][b]
+[r][r][w][g][g][y][r][o][o][b][b][b]
+[r][r][w][g][g][y][g][o][o][b][b][b]
+         [o][o][r]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 35:
+         [y][y][o]
+         [y][y][b]
+         [r][r][g]
+[r][o][w][g][g][o][y][y][b][y][g][b]
+[r][r][w][g][g][y][r][o][o][b][b][b]
+[r][r][w][g][g][y][g][o][o][b][b][b]
+         [o][o][r]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 36:
+         [y][y][o]
+         [y][y][b]
+         [y][r][g]
+[r][o][g][o][y][y][r][y][b][y][g][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 37:
+         [o][b][g]
+         [y][y][r]
+         [y][y][y]
+[y][g][b][r][o][g][o][y][y][r][y][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 38:
+         [o][b][g]
+         [y][y][r]
+         [r][r][b]
+[y][g][w][g][g][r][y][y][y][r][y][b]
+[r][r][w][g][g][o][y][o][o][b][b][b]
+[r][r][w][g][g][g][y][o][o][b][b][b]
+         [o][o][o]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 39:
+         [r][y][o]
+         [r][y][b]
+         [b][r][g]
+[g][g][r][y][y][y][r][y][b][y][g][w]
+[r][r][w][g][g][o][y][o][o][b][b][b]
+[r][r][w][g][g][g][y][o][o][b][b][b]
+         [o][o][o]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 40:
+         [r][y][b]
+         [r][y][b]
+         [b][r][y]
+[g][g][r][y][y][o][b][o][o][w][g][w]
+[r][r][w][g][g][b][y][o][o][w][b][b]
+[r][r][w][g][g][g][r][y][y][o][b][b]
+         [o][o][y]
+         [w][w][o]
+         [w][w][g]
+
+
+Step 41:
+         [b][b][y]
+         [y][y][r]
+         [r][r][b]
+[w][g][w][g][g][r][y][y][o][b][o][o]
+[r][r][w][g][g][b][y][o][o][w][b][b]
+[r][r][w][g][g][g][r][y][y][o][b][b]
+         [o][o][y]
+         [w][w][o]
+         [w][w][g]
+
+
+Step 42:
+         [b][b][y]
+         [y][y][r]
+         [y][y][r]
+[w][g][b][r][b][g][y][y][o][b][o][o]
+[r][r][r][g][g][g][o][o][o][w][b][b]
+[r][r][r][g][g][g][o][y][y][o][b][b]
+         [w][w][w]
+         [w][w][o]
+         [w][w][g]
+
+
+Step 43:
+         [y][y][b]
+         [y][y][b]
+         [r][r][y]
+[r][b][g][y][y][o][b][o][o][w][g][b]
+[r][r][r][g][g][g][o][o][o][w][b][b]
+[r][r][r][g][g][g][o][y][y][o][b][b]
+         [w][w][w]
+         [w][w][o]
+         [w][w][g]
+
+
+Step 44:
+         [y][y][b]
+         [y][y][b]
+         [r][r][g]
+[r][b][w][g][g][y][r][o][o][w][g][b]
+[r][r][w][g][g][y][r][o][o][w][b][b]
+[r][r][w][g][g][o][y][y][y][o][b][b]
+         [o][o][b]
+         [w][w][o]
+         [w][w][g]
+
+
+Step 45:
+         [y][y][y]
+         [y][y][y]
+         [r][r][o]
+[r][b][w][g][g][b][y][r][r][g][g][b]
+[r][r][w][g][g][o][y][o][o][b][b][b]
+[r][r][w][g][g][g][y][o][o][b][b][b]
+         [o][o][o]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 46:
+         [y][y][y]
+         [y][y][y]
+         [y][y][y]
+[r][b][o][b][o][g][o][r][r][g][g][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 47:
+         [y][y][y]
+         [y][y][y]
+         [y][y][y]
+[o][r][r][g][g][b][r][b][o][b][o][g]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [w][w][w]
+
+
+Step 48:
+         [y][y][b]
+         [y][y][b]
+         [y][y][b]
+[o][r][r][g][g][y][o][o][o][w][o][g]
+[r][r][r][g][g][y][b][o][o][w][b][b]
+[r][r][r][g][g][y][r][o][o][w][b][b]
+         [w][w][b]
+         [w][w][g]
+         [w][w][g]
+
+
+Step 49:
+         [y][y][y]
+         [y][y][y]
+         [b][b][b]
+[g][g][y][o][o][o][w][o][g][o][r][r]
+[r][r][r][g][g][y][b][o][o][w][b][b]
+[r][r][r][g][g][y][r][o][o][w][b][b]
+         [w][w][b]
+         [w][w][g]
+         [w][w][g]
+
+
+Step 50:
+         [y][y][w]
+         [y][y][w]
+         [b][b][o]
+[g][g][y][o][o][y][g][o][o][g][r][r]
+[r][r][r][g][g][y][o][o][o][g][b][b]
+[r][r][r][g][g][b][w][b][r][b][b][b]
+         [w][w][o]
+         [w][w][y]
+         [w][w][y]
+
+
+Step 51:
+         [w][w][o]
+         [y][y][b]
+         [y][y][b]
+[g][r][r][g][g][y][o][o][y][g][o][o]
+[r][r][r][g][g][y][o][o][o][g][b][b]
+[r][r][r][g][g][b][w][b][r][b][b][b]
+         [w][w][o]
+         [w][w][y]
+         [w][w][y]
+
+
+Step 52:
+         [r][r][g]
+         [y][y][b]
+         [y][y][b]
+[w][r][r][g][g][y][o][o][w][o][b][b]
+[w][r][r][g][g][y][o][o][w][o][b][b]
+[y][r][r][g][g][b][w][b][o][g][g][b]
+         [w][w][o]
+         [w][w][y]
+         [r][o][y]
+
+
+Step 53:
+         [r][r][g]
+         [y][y][o]
+         [y][y][o]
+[w][r][r][g][g][g][w][w][o][y][b][b]
+[w][r][r][g][g][b][o][o][b][y][b][b]
+[y][r][r][g][g][b][o][o][w][o][g][b]
+         [w][w][y]
+         [w][w][y]
+         [r][o][b]
+
+
+Step 54:
+         [b][o][r]
+         [y][y][o]
+         [y][y][o]
+[w][r][r][g][g][g][w][w][y][b][g][o]
+[b][r][r][g][g][b][o][o][w][b][b][y]
+[o][r][r][g][g][b][o][o][w][b][b][y]
+         [w][w][y]
+         [w][w][y]
+         [g][r][r]
+
+
+Step 55:
+         [r][o][o]
+         [o][y][y]
+         [b][y][y]
+[b][g][o][w][r][r][g][g][g][w][w][y]
+[b][r][r][g][g][b][o][o][w][b][b][y]
+[o][r][r][g][g][b][o][o][w][b][b][y]
+         [w][w][y]
+         [w][w][y]
+         [g][r][r]
+
+
+Step 56:
+         [o][b][b]
+         [o][y][y]
+         [b][y][y]
+[g][g][o][w][r][r][g][g][r][y][y][y]
+[r][r][r][g][g][b][o][o][o][w][b][b]
+[r][r][r][g][g][b][o][o][o][w][b][b]
+         [w][w][y]
+         [w][w][y]
+         [w][w][g]
+
+
+Step 57:
+         [b][o][o]
+         [y][y][b]
+         [y][y][b]
+[w][r][r][g][g][r][y][y][y][g][g][o]
+[r][r][r][g][g][b][o][o][o][w][b][b]
+[r][r][r][g][g][b][o][o][o][w][b][b]
+         [w][w][y]
+         [w][w][y]
+         [w][w][g]
+
+
+Step 58:
+         [r][r][w]
+         [y][y][b]
+         [y][y][b]
+[w][r][r][g][g][r][y][y][b][o][b][b]
+[w][r][r][g][g][b][o][o][o][g][b][b]
+[g][r][r][g][g][b][o][o][o][g][w][w]
+         [w][w][y]
+         [w][w][y]
+         [o][o][y]
+
+
+Step 59:
+         [r][r][r]
+         [y][y][b]
+         [y][y][b]
+[w][r][r][g][g][y][o][o][y][b][b][b]
+[w][r][r][g][g][y][o][o][y][b][b][b]
+[g][r][r][g][g][y][o][o][b][w][w][w]
+         [w][w][g]
+         [w][w][g]
+         [o][o][o]
+
+
+Step 60:
+         [y][y][b]
+         [y][y][b]
+         [y][y][b]
+[r][r][r][g][g][y][o][o][o][w][b][b]
+[r][r][r][g][g][y][o][o][o][w][b][b]
+[r][r][r][g][g][y][o][o][o][w][b][b]
+         [w][w][g]
+         [w][w][g]
+         [w][w][g]
+
+
+Step 61:
          [y][y][y]
          [y][y][y]
          [y][y][y]
