@@ -1,8 +1,23 @@
-Scramble (0 moves): 
+Scramble (1 moves): F2
 
 Scrambled Cube:
          [y][y][y]
          [y][y][y]
+         [w][w][w]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+         [y][y][y]
+         [w][w][w]
+         [w][w][w]
+
+
+Solution (1 moves): F2
+
+Step-by-Step Solution:
+Step 1:
+         [y][y][y]
+         [y][y][y]
          [y][y][y]
 [r][r][r][g][g][g][o][o][o][b][b][b]
 [r][r][r][g][g][g][o][o][o][b][b][b]
@@ -12,6 +27,3 @@ Scrambled Cube:
          [w][w][w]
 
 
-Solution (0 moves): 
-
-Step-by-Step Solution:
