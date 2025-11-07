@@ -1,6 +1,33 @@
-Scramble (1 moves): D
+Scramble (5 moves): D L' L R D'
 
 Scrambled Cube:
+         [y][y][g]
+         [y][y][g]
+         [y][y][r]
+[r][r][r][g][g][w][g][o][o][y][b][b]
+[r][r][r][g][g][w][g][o][o][y][b][b]
+[r][r][w][g][o][o][y][o][o][b][b][b]
+         [o][b][b]
+         [w][w][w]
+         [w][w][w]
+
+
+Solution (3 moves): D R' D'
+
+Step-by-Step Solution:
+Step 1:
+         [y][y][g]
+         [y][y][g]
+         [y][y][r]
+[r][r][r][g][g][w][g][o][o][y][b][b]
+[r][r][r][g][g][w][g][o][o][y][b][b]
+[b][b][b][r][r][w][g][o][o][y][o][o]
+         [w][w][o]
+         [w][w][b]
+         [w][w][b]
+
+
+Step 2:
          [y][y][y]
          [y][y][y]
          [y][y][y]
@@ -12,10 +39,7 @@ Scrambled Cube:
          [w][w][w]
 
 
-Solution (1 moves): D'
-
-Step-by-Step Solution:
-Step 1:
+Step 3:
          [y][y][y]
          [y][y][y]
          [y][y][y]
