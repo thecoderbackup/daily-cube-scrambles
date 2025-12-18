@@ -1,53 +1,17 @@
-Scramble (4 moves): B B F2 R2
+Scramble (0 moves): 
 
 Scrambled Cube:
-         [w][w][y]
-         [y][y][w]
-         [w][w][y]
-[o][r][o][g][g][b][r][o][r][g][b][b]
-[o][r][o][g][g][b][r][o][r][g][b][b]
-[o][r][o][g][g][b][r][o][r][g][b][b]
-         [y][y][w]
-         [w][w][y]
-         [y][y][w]
+         [y][y][y]
+         [y][y][y]
+         [y][y][y]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+[r][r][r][g][g][g][o][o][o][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [w][w][w]
 
 
-Solution (3 moves): R2 F2 B2
+Solution (0 moves): 
 
 Step-by-Step Solution:
-Step 1:
-         [w][w][w]
-         [y][y][y]
-         [w][w][w]
-[o][r][o][g][g][g][r][o][r][b][b][b]
-[o][r][o][g][g][g][r][o][r][b][b][b]
-[o][r][o][g][g][g][r][o][r][b][b][b]
-         [y][y][y]
-         [w][w][w]
-         [y][y][y]
-
-
-Step 2:
-         [w][w][w]
-         [y][y][y]
-         [y][y][y]
-[o][r][r][g][g][g][o][o][r][b][b][b]
-[o][r][r][g][g][g][o][o][r][b][b][b]
-[o][r][r][g][g][g][o][o][r][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [y][y][y]
-
-
-Step 3:
-         [y][y][y]
-         [y][y][y]
-         [y][y][y]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [w][w][w]
-
-
