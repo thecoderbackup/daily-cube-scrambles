@@ -1,4 +1,4 @@
-Scramble (6 moves): F2 U2 U2 F' F2 F
+Scramble (0 moves): 
 
 Scrambled Cube:
          [y][y][y]
