@@ -1,33 +1,21 @@
-Scramble (4 moves): D' D R2 L
+Scramble (1 moves): L
 
 Scrambled Cube:
-         [b][y][w]
-         [b][y][w]
-         [b][y][w]
-[r][r][r][y][g][b][o][o][o][g][b][w]
-[r][r][r][y][g][b][o][o][o][g][b][w]
-[r][r][r][y][g][b][o][o][o][g][b][w]
-         [g][w][y]
-         [g][w][y]
-         [g][w][y]
+         [b][y][y]
+         [b][y][y]
+         [b][y][y]
+[r][r][r][y][g][g][o][o][o][b][b][w]
+[r][r][r][y][g][g][o][o][o][b][b][w]
+[r][r][r][y][g][g][o][o][o][b][b][w]
+         [g][w][w]
+         [g][w][w]
+         [g][w][w]
 
 
-Solution (52 moves): R2 D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'
+Solution (51 moves): D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'
 
 Step-by-Step Solution:
 Step 1:
-         [b][y][y]
-         [b][y][y]
-         [b][y][y]
-[r][r][r][y][g][g][o][o][o][b][b][w]
-[r][r][r][y][g][g][o][o][o][b][b][w]
-[r][r][r][y][g][g][o][o][o][b][b][w]
-         [g][w][w]
-         [g][w][w]
-         [g][w][w]
-
-
-Step 2:
          [b][y][y]
          [b][y][y]
          [b][y][y]
@@ -39,7 +27,7 @@ Step 2:
          [w][w][g]
 
 
-Step 3:
+Step 2:
          [g][w][w]
          [b][y][y]
          [b][y][y]
@@ -51,7 +39,7 @@ Step 3:
          [y][y][b]
 
 
-Step 4:
+Step 3:
          [g][w][g]
          [b][y][g]
          [b][y][w]
@@ -63,7 +51,7 @@ Step 4:
          [y][y][g]
 
 
-Step 5:
+Step 4:
          [g][y][y]
          [b][y][g]
          [b][y][w]
@@ -75,7 +63,7 @@ Step 5:
          [g][w][g]
 
 
-Step 6:
+Step 5:
          [g][y][y]
          [b][y][g]
          [b][y][w]
@@ -87,7 +75,7 @@ Step 6:
          [w][w][w]
 
 
-Step 7:
+Step 6:
          [b][b][g]
          [y][y][y]
          [w][g][y]
@@ -99,7 +87,7 @@ Step 7:
          [w][w][w]
 
 
-Step 8:
+Step 7:
          [b][b][o]
          [y][y][g]
          [w][g][y]
@@ -111,7 +99,7 @@ Step 8:
          [w][w][o]
 
 
-Step 9:
+Step 8:
          [y][g][w]
          [g][y][y]
          [o][b][b]
@@ -123,7 +111,7 @@ Step 9:
          [w][w][o]
 
 
-Step 10:
+Step 9:
          [y][g][g]
          [g][y][y]
          [o][b][r]
@@ -135,7 +123,7 @@ Step 10:
          [w][w][w]
 
 
-Step 11:
+Step 10:
          [r][b][o]
          [y][y][g]
          [g][g][y]
@@ -147,7 +135,7 @@ Step 11:
          [w][w][w]
 
 
-Step 12:
+Step 11:
          [r][b][g]
          [y][y][y]
          [g][g][b]
@@ -159,7 +147,7 @@ Step 12:
          [w][w][y]
 
 
-Step 13:
+Step 12:
          [g][y][b]
          [b][y][g]
          [r][y][g]
@@ -171,7 +159,7 @@ Step 13:
          [w][w][y]
 
 
-Step 14:
+Step 13:
          [g][y][o]
          [b][y][g]
          [r][y][y]
@@ -183,7 +171,7 @@ Step 14:
          [w][w][w]
 
 
-Step 15:
+Step 14:
          [r][b][g]
          [y][y][y]
          [y][g][o]
@@ -195,7 +183,7 @@ Step 15:
          [w][w][w]
 
 
-Step 16:
+Step 15:
          [r][o][g]
          [y][y][y]
          [y][g][o]
@@ -207,7 +195,7 @@ Step 16:
          [o][o][o]
 
 
-Step 17:
+Step 16:
          [o][g][y]
          [y][y][y]
          [g][o][r]
@@ -219,7 +207,7 @@ Step 17:
          [o][o][o]
 
 
-Step 18:
+Step 17:
          [b][b][g]
          [y][y][y]
          [g][o][r]
@@ -231,7 +219,7 @@ Step 18:
          [y][w][w]
 
 
-Step 19:
+Step 18:
          [r][o][g]
          [y][y][y]
          [g][b][b]
@@ -243,7 +231,7 @@ Step 19:
          [y][w][w]
 
 
-Step 20:
+Step 19:
          [b][o][g]
          [r][y][y]
          [b][b][b]
@@ -255,7 +243,7 @@ Step 20:
          [y][w][w]
 
 
-Step 21:
+Step 20:
          [b][r][b]
          [b][y][o]
          [b][y][g]
@@ -267,7 +255,7 @@ Step 21:
          [y][w][w]
 
 
-Step 22:
+Step 21:
          [y][r][b]
          [y][y][o]
          [g][y][g]
@@ -279,7 +267,7 @@ Step 22:
          [w][w][w]
 
 
-Step 23:
+Step 22:
          [g][y][y]
          [y][y][r]
          [g][o][b]
@@ -291,7 +279,7 @@ Step 23:
          [w][w][w]
 
 
-Step 24:
+Step 23:
          [g][y][y]
          [y][y][r]
          [r][r][r]
@@ -303,7 +291,7 @@ Step 24:
          [w][w][w]
 
 
-Step 25:
+Step 24:
          [r][y][g]
          [r][y][y]
          [r][r][y]
@@ -315,7 +303,7 @@ Step 25:
          [w][w][w]
 
 
-Step 26:
+Step 25:
          [r][y][g]
          [r][y][y]
          [r][o][b]
@@ -327,7 +315,7 @@ Step 26:
          [w][w][w]
 
 
-Step 27:
+Step 26:
          [r][r][r]
          [o][y][y]
          [b][y][g]
@@ -339,7 +327,7 @@ Step 27:
          [w][w][w]
 
 
-Step 28:
+Step 27:
          [r][r][r]
          [o][y][y]
          [y][o][o]
@@ -351,7 +339,7 @@ Step 28:
          [w][w][w]
 
 
-Step 29:
+Step 28:
          [b][r][r]
          [b][y][y]
          [y][o][o]
@@ -363,7 +351,7 @@ Step 29:
          [o][w][w]
 
 
-Step 30:
+Step 29:
          [b][r][r]
          [b][y][y]
          [w][w][w]
@@ -375,7 +363,7 @@ Step 30:
          [o][w][w]
 
 
-Step 31:
+Step 30:
          [g][r][r]
          [g][y][y]
          [r][w][w]
@@ -387,7 +375,7 @@ Step 31:
          [w][w][w]
 
 
-Step 32:
+Step 31:
          [g][r][r]
          [g][y][y]
          [g][y][y]
@@ -399,7 +387,7 @@ Step 32:
          [w][w][w]
 
 
-Step 33:
+Step 32:
          [y][y][g]
          [y][y][g]
          [r][r][g]
@@ -411,7 +399,7 @@ Step 33:
          [w][w][w]
 
 
-Step 34:
+Step 33:
          [y][y][b]
          [y][y][b]
          [r][r][y]
@@ -423,7 +411,7 @@ Step 34:
          [w][w][b]
 
 
-Step 35:
+Step 34:
          [y][y][b]
          [y][y][b]
          [r][r][g]
@@ -435,7 +423,7 @@ Step 35:
          [w][w][b]
 
 
-Step 36:
+Step 35:
          [y][y][y]
          [y][y][y]
          [r][r][g]
@@ -447,7 +435,7 @@ Step 36:
          [w][w][w]
 
 
-Step 37:
+Step 36:
          [y][y][y]
          [y][y][y]
          [y][y][y]
@@ -459,7 +447,7 @@ Step 37:
          [w][w][w]
 
 
-Step 38:
+Step 37:
          [y][y][y]
          [y][y][y]
          [y][y][y]
@@ -471,7 +459,7 @@ Step 38:
          [w][w][w]
 
 
-Step 39:
+Step 38:
          [y][y][o]
          [y][y][g]
          [y][y][g]
@@ -483,7 +471,7 @@ Step 39:
          [w][w][o]
 
 
-Step 40:
+Step 39:
          [y][y][y]
          [y][y][y]
          [g][g][o]
@@ -495,7 +483,7 @@ Step 40:
          [w][w][o]
 
 
-Step 41:
+Step 40:
          [y][y][y]
          [y][y][y]
          [g][g][r]
@@ -507,7 +495,7 @@ Step 41:
          [w][w][w]
 
 
-Step 42:
+Step 41:
          [y][y][y]
          [y][y][y]
          [b][b][y]
@@ -519,7 +507,7 @@ Step 42:
          [w][w][w]
 
 
-Step 43:
+Step 42:
          [y][y][o]
          [y][y][g]
          [b][b][g]
@@ -531,7 +519,7 @@ Step 43:
          [w][w][o]
 
 
-Step 44:
+Step 43:
          [b][y][y]
          [b][y][y]
          [g][g][o]
@@ -543,7 +531,7 @@ Step 44:
          [w][w][o]
 
 
-Step 45:
+Step 44:
          [b][y][y]
          [b][y][y]
          [g][g][g]
@@ -555,7 +543,7 @@ Step 45:
          [w][w][w]
 
 
-Step 46:
+Step 45:
          [y][y][g]
          [y][y][g]
          [b][b][g]
@@ -567,7 +555,7 @@ Step 46:
          [w][w][w]
 
 
-Step 47:
+Step 46:
          [y][y][b]
          [y][y][b]
          [b][b][r]
@@ -579,7 +567,7 @@ Step 47:
          [w][w][o]
 
 
-Step 48:
+Step 47:
          [y][y][b]
          [y][y][b]
          [g][g][r]
@@ -591,7 +579,7 @@ Step 48:
          [w][w][o]
 
 
-Step 49:
+Step 48:
          [y][y][y]
          [y][y][y]
          [g][g][o]
@@ -603,7 +591,7 @@ Step 49:
          [w][w][r]
 
 
-Step 50:
+Step 49:
          [y][y][o]
          [y][y][g]
          [y][y][g]
@@ -615,7 +603,7 @@ Step 50:
          [w][w][r]
 
 
-Step 51:
+Step 50:
          [y][y][y]
          [y][y][y]
          [y][y][y]
@@ -627,7 +615,7 @@ Step 51:
          [w][w][w]
 
 
-Step 52:
+Step 51:
          [y][y][y]
          [y][y][y]
          [y][y][y]
