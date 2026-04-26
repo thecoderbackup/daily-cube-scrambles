@@ -1,45 +1,33 @@
-Scramble (8 moves): B F' D D2 F R2 R2 F'
+Scramble (5 moves): U U' F R R
 
 Scrambled Cube:
-         [o][o][o]
-         [y][y][y]
-         [o][o][o]
-[y][r][y][g][g][g][w][o][w][b][b][b]
-[y][r][y][g][g][g][w][o][w][b][b][b]
-[g][g][g][w][o][w][b][b][b][y][r][y]
-         [r][w][r]
-         [r][w][r]
-         [r][w][r]
+         [y][y][o]
+         [y][y][w]
+         [r][r][w]
+[r][r][w][g][g][b][o][o][y][g][b][b]
+[r][r][w][g][g][b][o][o][y][g][b][b]
+[r][r][w][g][g][b][o][o][y][g][b][b]
+         [o][o][y]
+         [w][w][y]
+         [w][w][r]
 
 
-Solution (3 moves): D F B'
+Solution (2 moves): R2 F'
 
 Step-by-Step Solution:
 Step 1:
-         [o][o][o]
          [y][y][y]
+         [y][y][y]
+         [r][r][r]
+[r][r][w][g][g][g][y][o][o][b][b][b]
+[r][r][w][g][g][g][y][o][o][b][b][b]
+[r][r][w][g][g][g][y][o][o][b][b][b]
          [o][o][o]
-[y][r][y][g][g][g][w][o][w][b][b][b]
-[y][r][y][g][g][g][w][o][w][b][b][b]
-[y][r][y][g][g][g][w][o][w][b][b][b]
-         [r][r][r]
          [w][w][w]
-         [r][r][r]
+         [w][w][w]
 
 
 Step 2:
-         [o][o][o]
-         [y][y][y]
-         [y][y][y]
-[y][r][r][g][g][g][o][o][w][b][b][b]
-[y][r][r][g][g][g][o][o][w][b][b][b]
-[y][r][r][g][g][g][o][o][w][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [r][r][r]
-
-
-Step 3:
          [y][y][y]
          [y][y][y]
          [y][y][y]
