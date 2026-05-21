@@ -1,18 +1,18 @@
-Scramble (1 moves): U2
+Scramble (4 moves): B' B' U2 U2
 
 Scrambled Cube:
+         [w][w][w]
          [y][y][y]
          [y][y][y]
+[o][r][r][g][g][g][o][o][r][b][b][b]
+[o][r][r][g][g][g][o][o][r][b][b][b]
+[o][r][r][g][g][g][o][o][r][b][b][b]
+         [w][w][w]
+         [w][w][w]
          [y][y][y]
-[o][o][o][b][b][b][r][r][r][g][g][g]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [w][w][w]
 
 
-Solution (1 moves): U2
+Solution (1 moves): B2
 
 Step-by-Step Solution:
 Step 1:
