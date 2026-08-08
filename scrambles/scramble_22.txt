@@ -1,69 +1,57 @@
-Scramble (11 moves): B' B D U B B2 B R' F F2 R2
+Scramble (4 moves): F2 R D2 R'
 
 Scrambled Cube:
-         [y][y][b]
          [y][y][g]
-         [b][b][r]
-[g][g][r][y][y][w][g][o][w][r][r][r]
-[r][r][y][o][g][w][g][o][w][r][b][b]
-[b][b][y][o][g][w][g][o][o][y][o][o]
-         [g][r][o]
-         [w][w][b]
-         [w][w][b]
+         [y][y][y]
+         [w][w][w]
+[r][r][o][g][g][g][r][o][o][y][b][b]
+[r][r][o][g][g][g][r][o][r][w][b][b]
+[o][o][o][y][b][g][r][o][r][w][g][w]
+         [b][w][y]
+         [b][w][w]
+         [b][y][b]
 
 
-Solution (5 moves): R2 F R D' U'
+Solution (4 moves): R D2 R' F2
 
 Step-by-Step Solution:
 Step 1:
-         [y][y][o]
-         [y][y][b]
-         [b][b][b]
-[g][g][r][y][y][y][o][o][g][w][r][r]
-[r][r][y][o][g][r][w][o][g][w][b][b]
-[b][b][y][o][g][r][w][o][g][w][o][o]
-         [g][r][b]
+         [y][y][g]
+         [y][y][g]
          [w][w][g]
-         [w][w][r]
+[r][r][o][g][g][y][r][r][r][w][b][b]
+[r][r][o][g][g][w][o][o][o][y][b][b]
+[o][o][o][y][b][b][r][r][o][g][g][w]
+         [b][w][w]
+         [b][w][w]
+         [b][y][y]
 
 
 Step 2:
-         [y][y][o]
-         [y][y][b]
-         [y][y][r]
-[g][g][g][o][o][y][b][o][g][w][r][r]
-[r][r][r][g][g][y][b][o][g][w][b][b]
-[b][b][b][r][r][y][b][o][g][w][o][o]
-         [w][w][o]
+         [y][y][g]
+         [y][y][g]
          [w][w][g]
-         [w][w][r]
+[r][r][o][g][g][y][r][r][r][w][b][b]
+[r][r][o][g][g][w][o][o][o][y][b][b]
+[r][r][o][g][g][w][o][o][o][y][b][b]
+         [y][y][b]
+         [w][w][b]
+         [w][w][b]
 
 
 Step 3:
          [y][y][y]
          [y][y][y]
-         [y][y][y]
-[g][g][g][o][o][o][b][b][b][r][r][r]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-[b][b][b][r][r][r][g][g][g][o][o][o]
          [w][w][w]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+[r][r][o][g][g][g][r][o][o][b][b][b]
+         [y][y][y]
          [w][w][w]
          [w][w][w]
 
 
 Step 4:
-         [y][y][y]
-         [y][y][y]
-         [y][y][y]
-[g][g][g][o][o][o][b][b][b][r][r][r]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-[r][r][r][g][g][g][o][o][o][b][b][b]
-         [w][w][w]
-         [w][w][w]
-         [w][w][w]
-
-
-Step 5:
          [y][y][y]
          [y][y][y]
          [y][y][y]
