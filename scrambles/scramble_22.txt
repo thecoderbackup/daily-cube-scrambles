@@ -1,18 +1,18 @@
-Scramble (1 moves): R2
+Scramble (1 moves): B
 
 Scrambled Cube:
-         [y][y][w]
-         [y][y][w]
-         [y][y][w]
-[r][r][r][g][g][b][o][o][o][g][b][b]
-[r][r][r][g][g][b][o][o][o][g][b][b]
-[r][r][r][g][g][b][o][o][o][g][b][b]
-         [w][w][y]
-         [w][w][y]
-         [w][w][y]
+         [o][o][o]
+         [y][y][y]
+         [y][y][y]
+[y][r][r][g][g][g][o][o][w][b][b][b]
+[y][r][r][g][g][g][o][o][w][b][b][b]
+[y][r][r][g][g][g][o][o][w][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [r][r][r]
 
 
-Solution (1 moves): R2
+Solution (1 moves): B'
 
 Step-by-Step Solution:
 Step 1:
