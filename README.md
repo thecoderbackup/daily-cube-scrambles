@@ -2,11 +2,42 @@
 
 ## Today's Featured Scramble
 ## Daily Cube Scramble Example
-**Scramble Moves:** 0
-**Sequence:** ``
+**Scramble Moves:** 4
+**Sequence:** `F2 B' F' F2`
 
 ### Scrambled Cube State:
 ```
+         [r][r][r]
+         [y][y][y]
+         [o][o][o]
+[w][r][y][g][g][g][w][o][y][b][b][b]
+[w][r][y][g][g][g][w][o][y][b][b][b]
+[w][r][y][g][g][g][w][o][y][b][b][b]
+         [r][r][r]
+         [w][w][w]
+         [o][o][o]
+
+```
+
+### Solution Moves (2): `F B`
+
+### Step-by-Step Solution:
+#### Step 1: F
+```
+         [r][r][r]
+         [y][y][y]
+         [y][y][y]
+[w][r][r][g][g][g][o][o][y][b][b][b]
+[w][r][r][g][g][g][o][o][y][b][b][b]
+[w][r][r][g][g][g][o][o][y][b][b][b]
+         [w][w][w]
+         [w][w][w]
+         [o][o][o]
+
+```
+
+#### Step 2: B
+```
          [y][y][y]
          [y][y][y]
          [y][y][y]
@@ -19,8 +50,5 @@
 
 ```
 
-### Solution Moves (0): ``
-
-### Step-by-Step Solution:
 ---
 **Note:** Generated 25 scrambles daily. Check [scrambles/](scrambles/) folder for all files!
